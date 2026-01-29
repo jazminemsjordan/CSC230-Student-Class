@@ -49,6 +49,9 @@ public class Student {
     public boolean holdActive() { return holdActive; }
     public double getGpa() { return this.gpa; }
     public int getGradYear() { return this.gradYear; }
+    /** Method
+     * @return string list of program(s) of study, in order of first major, second major, minor
+     */
     public String getProgramOfStudy() {
         if (this.major1 == null){
             return("undeclared");
